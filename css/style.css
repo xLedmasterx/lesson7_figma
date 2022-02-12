@@ -1,0 +1,102 @@
+/* &display=swap */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+body {
+}
+/* ================================================================ */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ================================================================ */
+.container {
+	width: 810px;
+	margin: 0 auto;
+	font-family: "lato", sans-serif;
+}
+.content__top {
+	margin: 0 0 44px 0;
+}
+.content__title {
+	padding: 53px 0 63px 0;
+	font-size: 46px;
+	line-height: 1.3;
+	font-weight: 900;
+	color: #1e212c;
+}
+.top__meta {
+	color: #787a80;
+}
+.meta__data {
+	padding: 0 0 0 25px;
+	background: url("../img/icons/Calendar.png") 0 2px no-repeat;
+}
+.meta__time {
+	padding: 0 0 0 40px;
+	background: url("../img/icons/Clock.png") 15px 2px no-repeat;
+}
+
+.content__image {
+	margin: 0 0 60px 0;
+}
+.content__image img {
+	width: 810px;
+	height: 360px;
+}
+.content__down {
+	margin: 0 0 100px 0;
+}
+.down__title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+	margin: 0 0 24px 0;
+}
+.down__text {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+}
+.down__text p {
+	margin: 0 0 37px 0;
+}
+.down__direct {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+
+	text-align: left;
+	margin: 0 0 48px 0;
+}
+.down__direct p {
+	padding: 0 0 0 40px;
+	background: url("../img/icons/braces.png") 0 2px no-repeat;
+}
+
+.down__exemple {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin: 0 0 14px 0;
+}
+.down__list {
+	font-size: 16px;
+	line-height: 1.6;
+	color: #424551;
+	margin: 0 0 24px 0;
+}
+.down__list li {
+	padding: 0 0 0 25px;
+	background: url("../img/icons/check.png") 0 5px no-repeat;
+	margin: 0 0 10px 0;
+}
+
+.down__text-2 {
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
